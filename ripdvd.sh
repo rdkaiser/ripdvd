@@ -23,7 +23,7 @@ $ECHO -n " $HANDBRAKE_CLI -i $INDEV -o $VID_DIR/$TITLE.$EXT -Z $PRESET "
 read q
 
 if [ $q == 'y' ]; then
-	$ECHO "OK. Encoding file..."
+	$ECHO "OK. Encoding file..."; sleep 2
 	$HANDBRAKE_CLI -i $INDEV -o $VID_DIR/$TITLE.$EXT -Z $PRESET
 else
 	$ECHO "Exiting..."
