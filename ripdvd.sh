@@ -1,9 +1,8 @@
 #!/bin/bash
 
-$ECHO='/bin/echo'
-$SED='/bin/sed'
-$AWK='/usr/bin/awk'
-
+ECHO='/bin/echo'
+SED='/bin/sed'
+AWK='/usr/bin/awk'
 DVD_INFO='/usr/bin/cd-info -dvd'
 HANDBRAKE_CLI='/usr/bin/HandBrakeCLI'
 EXT='m4v'
